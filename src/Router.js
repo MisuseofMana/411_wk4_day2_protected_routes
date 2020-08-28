@@ -13,7 +13,6 @@ const checkAuth = () => {
     return cookies["loggedIn"] ? true : false
 }
 
-
 // Write ProtectedRoute function here
 const ProtectedRoute = ({component: Component, ...rest}) => {
     return (
